@@ -1,0 +1,115 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/userTab/home",
+			"style": {
+				"navigationBarTitleText": "新项目"
+			}
+		},
+		{
+			"path": "pages/userFunction/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索商家"
+			}
+		},
+		{
+			"path": "pages/userTab/share",
+			"style": {
+				"navigationBarTitleText": "共享广告分"
+			}
+		},
+		{
+			"path": "pages/userTab/activation",
+			"style": {
+				"navigationBarTitleText": "激活代理"
+			}
+		},
+		{
+			"path": "pages/userTab/mine",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/business/screen",
+			"style": {
+				"navigationBarTitleText": "新用户专享优惠"
+			}
+		},
+		{
+			"path": "pages/business/homepage",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/business/single_shop",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/userFunction/wallet/wallet",
+			"style": {
+				"navigationBarTitleText": "我的钱包"
+			}
+		},
+		{
+			"path": "pages/userFunction/wallet/withdrawal",
+			"style": {
+				"navigationBarTitleText": "提现"
+			}
+		},
+		{
+			"path": "pages/userFunction/wallet/bind_card",
+			"style": {
+				"navigationBarTitleText": "绑定银行卡"
+			}
+		},
+		{
+			"path": "pages/userFunction/share/share",
+			"style": {
+				"navigationBarTitleText": "分享"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+		// "navigationStyle": "custom"
+	},
+	"tabBar": {
+	    "color": "#9e9e9e",
+	    "selectedColor": "#ff395f",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [
+			{
+	        "pagePath": "pages/userTab/home",
+	        "iconPath": "static/images/tab/home.png",
+	        "selectedIconPath": "static/images/tab/home_se.png",
+	        "text": "首页"
+			}, 
+			{
+				"pagePath": "pages/userTab/share",
+				"iconPath": "static/images/tab/share.png",
+				"selectedIconPath": "static/images/tab/share_se.png",
+				"text": "共享广告分"
+			},
+			{
+				"pagePath": "pages/userTab/activation",
+				"iconPath": "static/images/tab/activation.png",
+				"selectedIconPath": "static/images/tab/activation_se.png",
+				"text": "激活代理"
+			},
+			{
+				"pagePath": "pages/userTab/mine",
+				"iconPath": "static/images/tab/mine.png",
+				"selectedIconPath": "static/images/tab/mine_se.png",
+				"text": "我的"
+			}
+		]
+	}
+}

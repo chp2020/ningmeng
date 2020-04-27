@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "新项目",
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "glance-slide-nav-tab-bar": "/wxcomponents/glance-SlideNavTabBar/glance-SlideNavTabBar"
+  }
+}

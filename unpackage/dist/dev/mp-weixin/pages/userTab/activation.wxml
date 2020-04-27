@@ -1,0 +1,1 @@
+<view class="page"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view data-event-opts="{{[['tap',[['upgrate',['$0'],[[['list','',index]]]]]]]}}" class="{{['content',index==0?'more-top':'']}}" bindtap="__e"><image style="width:100%;" src="{{imgUrl+item.img}}" mode="widthFix"></image></view></block></view>
